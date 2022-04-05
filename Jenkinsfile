@@ -7,7 +7,8 @@ pipeline {
     stages {
           stage ('Build') {
             steps {
-                sh 'mvn -Dmaven.test.failure.ignore=true install' 
+                sh "mvn clean package"
+                sh "mv target/*.war target/myweb.war"
             } 
           }
     
