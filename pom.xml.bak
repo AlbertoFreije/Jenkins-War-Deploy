@@ -15,7 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <! --<build>
+  <! --
+  <build>
     <finalName>JenkinsWar</finalName>
-  </build>-->
+  </build>
+  -->
 </project>
